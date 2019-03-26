@@ -98,7 +98,7 @@ Two different VLANs allow router-1 to connect two different subnets via unique p
 
 The project folder contains the Vagrant file, used to set up all the Virtual Machines, and the provisioning scripts for each VM.
 
-All the VMs are based on Trusty64, an exception is made for host-2-c, based on Xenial64. This is due because of a recent update of Docker, not supported by Trusty64's kernel.
+All the VMs are based on Trusty64, an exception is made for host-2-c, based on Xenial64. This is because of a recent update of Docker, not supported by Trusty64's kernel.
 
 #### Router 1
 
