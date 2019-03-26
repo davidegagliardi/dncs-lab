@@ -317,4 +317,4 @@ and vice versa:
 -   Get the webpage from `host-2-c` with `curl 10.0.30.1`
   ```bash
     vagrant@host-1-b: curl 10.0.30.1
-    ```
+  ```
