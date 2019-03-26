@@ -303,5 +303,18 @@ Once you launch the vagrant script, it may take a while for the entire topology 
     vagrant ssh host-1-b
     vagrant ssh host-2-c
   ```
--   to test reachability log into `host-1-b` and try to ping `host-2-c` with `ping 10.0.30.1`.
+-   to test reachability log into `host-2-c` and try to ping `host-1-b` with `ping 10.0.20.1`
+
+  ```bash
+    [dncs-lab]$ vagrant ssh host-2-c
+    vagrant@host-2-c: ping 10.0.20.1
+  ```
+and vice versa:
+  ```bash
+    [dncs-lab]$ vagrant ssh host-1-b
+    vagrant@host-1-b: ping 10.0.30.1
+  ```
 -   Get the webpage from `host-2-c` with `curl 10.0.30.1`
+  ```bash
+    vagrant@host-1-b: curl 10.0.30.1
+    ```
