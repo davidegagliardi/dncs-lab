@@ -63,17 +63,17 @@ The subnetting needs to be designed to accommodate the following requirement (no
 
 The network is divided in 4 different subnets:
 
--   **A** including host-1-a and router-1. The subnet is a /24 so you can get IP addresses for 254 different hosts (130 minimum required)
+-   **A** including `host-1-a` and `router-1`. The subnet is a /24 so you can get IP addresses for 254 different hosts (130 minimum required)
 
--   **B** including host-1-b and router-1. The subnet is a /27 so you can get IP addresses for 30 different hosts (25 minimum required)
+-   **B** including `host-1-b` and `router-1`. The subnet is a /27 so you can get IP addresses for 30 different hosts (25 minimum required)
 
--   **C** including router-1 and router-2. The subnet is a /30 so you can get IP addresses for 2 different hosts
+-   **C** including `router-1` and `router-2`. The subnet is a /30 so you can get IP addresses for 2 different hosts
 
--   **D** including router-2 and host-2-c. The subnet is a /30 so you can get IP addresses for 2 different hosts
+-   **D** including `router-2` and `host-2-c`. The subnet is a /30 so you can get IP addresses for 2 different hosts
 
 ### VLANs
 
-Two different VLANs allow router-1 to connect two different subnets via unique port. This two VLANs are marked with VIDs:
+Two different VLANs allow `router-1` to connect two different subnets via unique port. This two VLANs are marked with VIDs:
 
 | VID | Subnet |
 | --- | ------ |
