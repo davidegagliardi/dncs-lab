@@ -208,7 +208,7 @@ The following line is used to configure the IP address on _eth1_:
   ```bash
     ip addr add 10.0.10.1/24 dev eth1
   ```
-Then is possible a static route to _router-1_:
+Then is possible to set a static route to _router-1_:
   ```bash
     ip route add 10.0.0.0/8 via 10.0.10.254
   ```
@@ -231,7 +231,7 @@ The following line is used to configure the IP address on _eth1_:
   ```bash
     ip addr add 10.0.20.1/27 dev eth1
   ```
-Then is possible a static route to _router-1_:
+Then is possible to set a static route to _router-1_:
   ```bash
     ip route add 10.0.0.0/8 via 10.0.20.30
   ```
