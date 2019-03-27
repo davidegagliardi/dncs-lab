@@ -253,7 +253,7 @@ The following line is used to configure the IP address on _enp0s8_:
   ```bash
     ip addr add 10.0.30.1/30 dev enp0s8
   ```
-Then is possible a static route to _router-2_:
+Then is possible to set a static route to _router-2_:
   ```bash
     ip route add 10.0.0.0/8 via 10.0.30.2
   ```
@@ -283,7 +283,7 @@ Lastly the configuration of Docker to create a webserver based on Nginx and a we
 
 Once you launch the vagrant script, it may take a while for the entire topology to become available.
 
--   Verify the status of the 4 VMs
+-   Verify the status of the 6 VMs
   ```
     [dncs-lab]$ vagrant status  
     Current machine states:
@@ -303,6 +303,8 @@ Once you launch the vagrant script, it may take a while for the entire topology 
     vagrant ssh host-1-b
     vagrant ssh host-2-c
   ```
+  To log out use the command `exit`
+
 -   to test reachability log into `host-2-c` and try to ping `host-1-b` with `ping 10.0.20.1`
 
   ```bash
