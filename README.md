@@ -33,7 +33,7 @@ The subnetting needs to be designed to accommodate the following requirement (no
      |      |           +--------+                    +--------+
      |      |           |        |                    |        |
      |      |       eth0|        |                    |        |
-     |      +-----------+ROUTER A+-------------------->ROUTER C|
+     |      +-----------+ROUTER 1+-------------------->ROUTER 2|
      |      |           |        |eth2            eth2|        |
      |      |           |        |                    |        |
      |      |           +--------+                    +--------+
